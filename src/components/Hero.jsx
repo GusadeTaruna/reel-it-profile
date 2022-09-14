@@ -1,29 +1,25 @@
 import React from "react";
 import Topbar from "./Topbar";
+import MovingText from "react-moving-text";
 
 const Hero = () => {
   return (
     <>
-      <div className="h-screen bg-hero flex flex-col text-white text-center">
-        <div className="w-[90%] mx-auto z-50">
-          <Topbar />
-        </div>
-        <div className="grid grid-cols-12 gap-4 relative my-auto z-0">
-          <div className="p-4 mx-auto col-span-11">
+      <div className="h-screen bg-hero flex flex-col text-white p-8">
+        <Topbar />
+        <div className="my-auto ml-28 mr-auto">
+          <MovingText
+            type="slideInFromTop"
+            duration="1100ms"
+            delay="0s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="none"
+          >
             <h1 className="text-4xl md:text-7xl xl:text-[9em]">REEL IT</h1>
-            <div className="border border-[#37373e] bg-[#0e0e10] mb-3">
-              <p className="font-grotesk_mono uppercase text-[#a8a8a8] mb-3 p-2">
-                Stay tuned. We are launching{" "}
-                <span className="text-white">soon.</span>
-              </p>
-            </div>
             <h1 className="text-4xl md:text-7xl xl:text-[9em] mb-8">STUDIOS</h1>
-            <div className="flex justify-center">
-              <button className="border rounded border-[#37373e] bg-[#0e0e10] transition duration-200 hover:bg-[#FFFFFF] hover:text-[#000000] w-[50%] p-[1.3em] mb-3 -rotate-3">
-                <h1 className="text-xl">HIT US UP!</h1>
-              </button>
-            </div>
-          </div>
+          </MovingText>
         </div>
       </div>
     </>
