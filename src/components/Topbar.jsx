@@ -7,19 +7,19 @@ const Topbar = () => {
   return (
     <>
       <div className="border border-[#37373e] bg-[#0e0e10] rounded-l-lg rounded-tr-lg w-full grid grid-cols-12 gap-0">
-        <div className="col-span-9 p-5 text-left my-auto">
-          <h1 className="text-xs font-grotesk_mono mt-[-12px]">
-            SHOOT YOUR DANCE COVER VIDEO WITH US
+        <div className="col-span-6 md:col-span-7 xl:col-span-9 p-5 text-left my-auto">
+          <h1 className="text-sm font-grotesk_mono mt-[-12px] uppercase">
+            Film it. Reel it.
           </h1>
         </div>
-        <div className="col-span-2 border-x border-[#37373e] m-auto p-7">
-          <h1 className="uppercase text-sm">Film it. Reel it.</h1>
+        <div className="col-span-5 md:col-span-4 xl:col-span-2 border-l border-[#37373e] m-auto p-7">
+          <h1 className="uppercase text-sm">Bali - Indonesia</h1>
         </div>
-        <div className="col-span-1 relative">
-          <div className="w-full h-full py-5 px-8 m-auto">
-            <div className="w-full h-full bg-white rounded-full"></div>
+        <div className="col-span-1 border-l border-[#37373e] relative">
+          <div className="w-full h-full flex justify-center items-center">
+            <div className="w-10 h-10 bg-white rounded-full"></div>
           </div>
-          <div className="absolute top-[4.82rem] border w-full border-[#37373e] bg-[#0e0e10] rounded-b-lg xl:h-[78vh] 2xl:h-[85vh] flex flex-col align-middle justify-center text-center">
+          <div className="absolute top-[4.82rem] border w-full border-[#37373e] bg-[#0e0e10] rounded-b-lg h-[70vh] xl:h-[78vh] 2xl:h-[85vh] flex flex-col align-middle justify-center text-center">
             <h1
               className="uppercase font-grotesk_mono text-sm mx-auto h-full"
               style={{ writingMode: "vertical-rl" }}

@@ -10,6 +10,7 @@ module.exports = {
         monument_regular: ["monument-regular", "sans-serif"],
         monument_bold: ["monument-bold", "sans-serif"],
         grotesk_mono: ["grotesk-mono", "sans-serif"],
+        grotesk_reg: ["grotesk-reg", "sans-serif"],
       },
     },
   },

@@ -17,6 +17,11 @@
   src: url("../src/assets/font/MonumentGrotesk-Mono.ttf");
 }
 
+@font-face {
+  font-family: "grotesk-reg";
+  src: url("../src/assets/font/MonumentGrotesk-Regular.ttf");
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
