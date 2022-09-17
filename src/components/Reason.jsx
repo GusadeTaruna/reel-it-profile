@@ -44,7 +44,7 @@ const Reason = () => {
       <div className="max-w-[25em] w-full mx-auto mb-14">
         <UnderlineReason />
       </div>
-      <div className="w-full flex gap-4 bg-white border px-16 -rotate-3">
+      <div className="min-w-full flex gap-4 bg-white border-t border-b px-16 -rotate-3">
         <div className="flex-none" ref={(e) => createPanelsRefs(e, 0)}>
           <ReasonCard
             color="#68ffc9"
