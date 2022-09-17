@@ -8,7 +8,7 @@ const Topbar = () => {
     <>
       <div className="border border-[#37373e] bg-[#0e0e10] rounded-l-lg rounded-tr-lg w-full grid grid-cols-12 gap-0">
         <div className="col-span-6 md:col-span-7 xl:col-span-8 p-5 text-left my-auto">
-          <h1 className="text-sm font-grotesk_mono mt-[-12px] uppercase">
+          <h1 className="text-sm font-grotesk_mono uppercase">
             Film it. Reel it.
           </h1>
         </div>
