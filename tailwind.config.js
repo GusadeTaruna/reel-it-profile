@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('../src/assets/bg-hero.jpg')",
+        white_line: "url('../src/assets/bg-white.jpeg')",
       },
       fontFamily: {
         monument_regular: ["monument-regular", "sans-serif"],
