@@ -2,18 +2,19 @@ import React from "react";
 import { BsFacebook } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 import { SiYoutubemusic } from "react-icons/si";
+import reelItLogo from "../assets/logo-white.png";
 
 const Topbar = () => {
   return (
     <>
       <div className="border border-[#37373e] bg-[#0e0e10] rounded-l-lg rounded-tr-lg w-full grid grid-cols-12 gap-0">
         <div className="col-span-6 md:col-span-7 xl:col-span-8 p-5 text-left my-auto">
-          <h1 className="text-sm font-grotesk_mono uppercase">
-            Film it. Reel it.
+          <h1 className="text-sm">
+            <img src={reelItLogo} alt="reel-it-logo" className="max-h-8" />
           </h1>
         </div>
         <div className="col-span-5 md:col-span-4 xl:col-span-3 border-l border-[#37373e] p-7">
-          <h1 className="uppercase text-sm text-center">Bali - Indonesia</h1>
+          <h1 className="uppercase text-sm text-center">Film it. Reel it.</h1>
         </div>
         <div className="col-span-1 border-l border-[#37373e] relative">
           <div className="w-full h-full flex justify-center items-center">

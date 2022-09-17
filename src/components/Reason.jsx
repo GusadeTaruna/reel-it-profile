@@ -41,7 +41,7 @@ const Reason = () => {
       >
         Why <br /> Reel It
       </h1>
-      <div className="max-w-[25em] w-full mx-auto mb-14">
+      <div className="max-w-[25em] w-full mx-auto mb-20">
         <UnderlineReason />
       </div>
       <div className="min-w-full flex gap-4 bg-white border-t border-b px-16 -rotate-3">
