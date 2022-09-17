@@ -32,7 +32,7 @@ const Reason = () => {
 
   return (
     <div
-      className="container py-20 min-h-screen bg-white_line border-t border-gray-500"
+      className="container py-20 min-h-screen min-w-full bg-white_line border-t border-gray-500"
       ref={panelsContainer}
     >
       <h1
